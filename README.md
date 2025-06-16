@@ -1,5 +1,8 @@
 # Line-Following-Basic
 
-1) Camera node file will connect to Rostpopic of the drone cam and save the current feed to the files for futher use
-2) Master.py file sets the drone to a particular height and make drone ready for further command.
-3) "new mav and cv" file will use that feed image to further processing and give commands after calculating it from the feed.
+1) The camera node connects to the drone's ROS topic and saves the current video feed to files for further use.
+
+2) The master.py script sets the drone to a specific altitude and prepares it to receive further commands.
+
+3) The "new_mav_and_cv" script processes the saved feed images and sends control commands to the drone based on the analysis.
+
